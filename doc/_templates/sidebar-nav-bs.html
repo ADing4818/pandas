@@ -18,6 +18,7 @@
       let link = document.getElementById("source_doc_link");
       let curr_href = link.getAttribute('href');
       
+      // Parses through the url to get the docs path
       let path = url.substring(url.lastIndexOf("source/") + 7, url.lastIndexOf(".html"))
       let extension = ".rst"
       
